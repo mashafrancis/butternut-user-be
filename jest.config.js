@@ -27,10 +27,10 @@ module.exports = {
   collectCoverageFrom: ['src/**/*.ts', 'src/**/*.tsx', '!src/**/interface.d.ts', '!src/**/*interfaces.d.ts'],
   coverageThreshold: {
     global: {
-      'branches': 90,
-      'functions': 90,
-      'lines': 90,
-      'statements': 95
+      'branches': 30,
+      'functions': 30,
+      'lines': 30,
+      'statements': 35
     }
   },
   testEnvironment: 'node'
