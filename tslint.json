@@ -46,10 +46,7 @@
       true,
       120
     ],
-    "member-ordering": [
-      true,
-      "static-before-instance"
-    ],
+   "member-ordering": [false],
     "no-arg": true,
     "no-bitwise": true,
     "no-console": [
